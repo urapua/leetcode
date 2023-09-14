@@ -8,7 +8,8 @@ import java.util.Random;
  * @author KatjizeuV
  **/
 public class Learn {
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
 
 //        int[] nums = [...]; // Input array
 //        int val = ...; // Value to remove
