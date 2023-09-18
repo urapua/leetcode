@@ -24,11 +24,11 @@ public class RemoveElement {
 				}
 				if(nums[i] == val) 
 				{
-					i--;
+					i--;  // it reduces i to cater for values which occur consecutively in an array 
 				}
 				length--;
 			}
-			else if(nums[i] == val && i == length -1)
+			else if(nums[i] == val && i == length -1) // this takes care of indexoutofbounds error.
 			{
 				nums[i] = 0;
 				length--;
